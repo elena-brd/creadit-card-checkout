@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Schibsted Grotesk', sans-serif;
+    /* background: #16697a; */
+    background: #4d194d;
+    color: #292929;
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    width: 750px;
+    justify-content: center;
+    margin: 5rem auto;
+}
+
+/* Utilities */
+.first-card,
+.second-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px 2px rgba(181, 226, 250, 1);
+    padding: 1rem;
+}
+
+.title {
+    color: #5f0f40;
+    text-transform: uppercase;
+}
+
+h2,
+h3 {
+    color: #5f0f40;
+    padding: 0.3rem 0;
+}
+
+p {
+    color: #585858;
+    font-size: 0.9rem;
+}
+
+span,
+.price {
+    color: #292929;
+    font-weight: 600;
+}
+
+.title {
+    padding-bottom: 1rem;
+}
+
+.btn {
+    margin: 1rem 0;
+    padding: 0.8rem 0;
+    border: 0;
+    background: #5f0f40;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 5px;
+    width: 100%;
+    transition: all 0.3s ease-out;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #585858;
+}
+
+/* first card */
+.payment {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Second card */
+.card-details div {
+    margin-top: 1rem;
+}
+
+.card-details select {
+    width: 100%;
+    padding: 0.4rem 0;
+}
+
+.card-details i {
+    margin-top: 0.7rem;
+    margin-left: 0.2rem;
+}
+
+.card-details input {
+    width: 100%;
+    padding: 0.3rem;
+}
+
+.card-details {
+    margin: 1.2rem 0;
+}

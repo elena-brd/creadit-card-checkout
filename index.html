@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Credit Card Checkout</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="first-card">
+            <div class="title">
+                <h2>Checkout</h2>
+            </div>
+            <div class="item-details">
+                <img src="./img/showcase-1.jpg" alt="">
+                <h3>Sport Item</h3>
+                <p>Quantity <span>1</span></p>
+            </div>
+            <div class="payment-details">
+                <h3>Payment Details</h3>
+                <div class="payment">
+                    <div class="total-calculation">
+                        <p>Total Cost:</p>
+                        <p>Discount:</p>
+                        <p>Total Price:</p>
+                    </div>
+                    <div class="price">
+                        <p>&dollar; 50.00</p>
+                        <p>-&dollar; 10.00</p>
+                        <p>&dollar; 40.00</p>
+                    </div>
+
+                </div>
+            </div>
+            <button class="btn">Proceed to Payment</button>
+        </div>
+
+        <div class="second-card">
+            <div class="title">
+                <h2>Payment</h2>
+            </div>
+            <div class="card-details">
+                <div>
+                    <label for="#">Card Type</label>
+                    <select name="card-type" id="card-type">
+                        <option value="visa">Visa</option>
+                        <option value="master-card">Master Card</option>
+                        <option value="apple-pay">Apple</option>
+                        <option value="american-express">American Express</option>
+                    </select>
+                    <i class="fa-brands fa-cc-visa fa-2x"></i>
+                    <i class="fa-brands fa-cc-mastercard fa-2x"></i>
+                    <i class="fa-brands fa-cc-amex fa-2x"></i>
+                    <i class="fa-brands fa-cc-apple-pay fa-2x"></i>
+                </div>
+
+                <div>
+                    <label>Name</label>
+                    <input type="text">
+                </div>
+                <div>
+                    <label>Card Number</label>
+                    <input type="text">
+                </div>
+
+                <div>
+                    <label>Expire Date</label>
+                    <input type="text" placeholder="MM/YYYY">
+                </div>
+
+                <div>
+                    <label>CVV</label>
+                    <input type="text" placeholder="CVV">
+                </div>
+
+            </div>
+
+            <button class="btn">Pay Now</button>
+        </div>
+
+
+        <script src="https://kit.fontawesome.com/f0b3d42456.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
